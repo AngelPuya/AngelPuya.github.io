@@ -26,74 +26,77 @@ A continuación se presenta la tabla de herramientas seleccionadas para el entor
 
 ---
 
-## Fase 2: Entorno Colaborativo y Ofimática
+---
+
+## 🏢 Fase 2: Entorno Colaborativo y Ofimática
 
 ### Manual de Bienvenida: EcoTech Solutions
-> **¡Bienvenido al equipo de EcoTech!** > Estamos encantados de que te unas a nuestra misión de transformar la tecnología hacia un modelo sostenible y circular. Este documento te servirá de guía durante tus primeros días.
+> [cite_start]**¡Bienvenido al equipo de EcoTech!** [cite: 183]  
+> [cite_start]Estamos encantados de que te unas a nuestra misión de transformar la tecnología hacia un modelo sostenible y circular[cite: 184]. [cite_start]Este documento te servirá de guía durante tus primeros días[cite: 185].
 
 #### 1. Nuestra Misión y Visión
-* **Misión:** Acelerar la transición a tecnologías verdes.
-  * *Tecnología verde:* Uso de la ciencia y la innovación para crear productos, servicios y procesos que minimizan el impacto ambiental negativo.
-* **Visión:** Ser el referente mundial en componentes biodegradables para 2030.
+* [cite_start]**Misión:** Acelerar la transición a tecnologías verdes[cite: 188].
+  * [cite_start]*Tecnología verde:* Uso de la ciencia y la innovación para crear productos, servicios y procesos que minimizan el impacto ambiental negativo[cite: 189].
+* [cite_start]**Visión:** Ser el referente mundial en componentes biodegradables para 2030[cite: 190].
 
-#### 2. Herramientas de Trabajo
-Para garantizar la eficiencia, utilizamos un ecosistema en la nube:
-* **Gestión Documental:** Google Drive / OneDrive (Edición en tiempo real).
-* **Comunicación:** Slack o Microsoft Teams.
-* **Gestión de Proyectos:** Trello o Asana.
+#### [cite_start]2. Herramientas de Trabajo [cite: 191]
+[cite_start]Para garantizar la eficiencia, utilizamos un ecosistema en la nube[cite: 192]:
+* [cite_start]**Gestión Documental:** Google Drive / OneDrive (Edición en tiempo real)[cite: 193].
+* [cite_start]**Comunicación:** Slack o Microsoft Teams[cite: 194].
+* [cite_start]**Gestión de Proyectos:** Trello o Asana[cite: 195].
 
-#### 3. Normas del Espacio de Trabajo Colaborativo
-1. **Nomenclatura:** Nombra tus archivos como `FECHA_NOMBRE_PROYECTO`.
-2. **Comentarios:** Usa la función de mención (`@nombre`) para asignar tareas.
-3. **Versiones:** No crees copias (ej. *"Manual_Final_V2"*). Usa el Historial de versiones integrado.
+#### [cite_start]3. Normas del Espacio de Trabajo Colaborativo [cite: 196]
+1. [cite_start]**Nomenclatura:** Nombra tus archivos como `FECHA_NOMBRE_PROYECTO`[cite: 198].
+2. [cite_start]**Comentarios:** Usa la función de mención (`@nombre`) para asignar tareas[cite: 199].
+3. **Versiones:** No crees copias (ej. "Manual_Final_V2"). [cite_start]Usa el Historial de versiones integrado[cite: 200].
 
-#### 4. Canales de Ayuda
-* **Soporte TI:** `ticket-support@ecotech.com`
-* **Recursos Humanos:** `hr@ecotech.com`
+### [cite_start]🔄 Control de Versiones (Historial de Cambios) [cite: 207]
 
----
+[cite_start]A continuación se documentan las revisiones y comentarios realizados sobre el documento colaborativo el **28 de abril de 2026**[cite: 210, 213]:
 
-## Fase 3: Comunicación y Transferencia
+* [cite_start]**Revisión de la sección de objetivos:** Inserción de la definición de tecnologías verdes justo debajo de la misión corporativa[cite: 208, 210].
+  
+  ![Comentario sobre tecnología verde](imagenes/version_mision.png)
 
-### Tarea 1: Configuración de Cifrado Extremo a Extremo en Thunderbird (OpenPGP)
+* [cite_start]**Revisión de directrices de guardado:** Ajuste sugerido sobre la plantilla de nomenclatura y formatos de los archivos finales a almacenar[cite: 211, 214].
 
-Para garantizar la privacidad y mitigar la exposición de mensajes frente a la vigilancia masiva o el propio proveedor de correo, se configura la tecnología OpenPGP:
-
-1. **Acceso a la configuración:** Iniciamos Thunderbird y nos dirigimos a `Configuración` -> `Configuración de la cuenta`.
-2. **Sección de Cifrado:** En el apartado de *Cifrado extremo a extremo*, seleccionamos la opción **Añadir clave...**
-3. **Generación de la clave:** Creamos nuestra propia clave OpenPGP vinculada a la dirección de correo (`angel.puya.lucena.alu@iesfernandoaguilar.es`). 
-4. **Expiración:** Configuramos la clave para que **no caduque** y utilizamos un algoritmo RSA de 3072 bits.
-5. **Confirmación:** Una vez completado, el ID de la clave generada (ej. `0x086EDCF7E457BB19`) quedará correctamente asignado y activo.
-
-### Tarea 2: Transferencia Segura de Logs con WeTransfer
-
-Cuando necesitamos transferir archivos de registros pesados de forma rápida y sin pérdida de calidad (útil para material multimedia o logs extensos), se utiliza WeTransfer:
-
-1. Accedemos a la página oficial de WeTransfer.
-2. Pulsamos el botón **"Añadir archivos"** y seleccionamos el fichero `log.txt`.
-3. Introducimos el correo electrónico del destinatario y nuestra dirección corporativa.
-4. Hacemos clic en **"Transferir"**. El sistema generará de forma segura el enlace de descarga válido por el periodo establecido (ej. 3 días).
+  ![Comentario sobre plantilla de archivos](imagenes/version_nomenclatura.png)
 
 ---
 
-## Fase 4: Documentación Técnica y Búsqueda
+## [cite_start]📯 Fase 3: Comunicación y Transferencia [cite: 217]
 
-### Resolución de Incidencias de Hardware
+### [cite_start]Tarea 1: Configuración de Cifrado Extremo a Extremo en Thunderbird (OpenPGP) [cite: 218, 246]
 
-#### La Controladora RAID "quisquillosa"
-El mensaje y la serie de pitidos o luces emitidos por la tarjeta corresponden a un mensaje **POST (Power-On Self-Test)**. Estos códigos de error específicos indican problemas de hardware detectables antes de iniciar el sistema operativo.
-* **Solución:** Consultar los códigos de error detallados a partir de la **página 141** de la *HP ProLiant Servers Troubleshooting Guide*.
+[cite_start]Para evitar que los contenidos de nuestros correos queden expuestos ante los proveedores o sistemas de vigilancia masiva, configuramos claves personales de cifrado[cite: 247, 248]:
 
-#### El Servidor que no acepta la RAM
-En un servidor *Dell PowerEdge R720*, los fallos de reconocimiento de memoria suelen deberse a incompatibilidades de arquitectura o restricciones de posicionamiento físico:
-* **Tipo de memoria:** El servidor puede requerir módulos **RDIMM** o **LRDIMM** en lugar de *ECC Unbuffered DDR3* estándar.
-* **Restricción de Slots:** El R720 permite usar hasta 16 slots (8 por cada procesador), dictando la regla de arquitectura que **los slots 3 de cada canal deben permanecer vacíos** si no se cumple la configuración máxima admitida.
-* **Referencia:** *Dell PowerEdge R720 Memory Upgrades*.
+1. [cite_start]**Acceso al panel técnico:** Iniciamos Thunderbird y entramos en `Configuración` -> `Configuración de la cuenta`[cite: 227].
 
-#### El SAI ruidoso
-El ruido constante proviene de una alerta crítica del sistema: el SAI ha detectado que uno de sus **relés internos de seguridad** (encargado de prevenir el retorno de corriente o *backfeed*) se ha quedado soldado o está dañado. El equipo bloquea funciones para prevenir males mayores.
-* **Procedimiento de reinicio / diagnóstico:**
-  1. Apagar el SAI por completo.
-  2. Desconectarlo de la toma de corriente eléctrica de la pared.
-  3. Desconectar físicamente la batería interna del dispositivo.
-  4. Mantener presionado el botón de encendido durante **10 segundos** para descargar los condensadores internos residuales.
+   ![Configuración de la cuenta en Thunderbird](imagenes/tb_config.png)
+
+2. [cite_start]**Gestión de Cifrado:** En el menú lateral izquierdo, nos dirigimos a **Cifrado extremo a extremo** y pulsamos sobre el botón **Añadir clave...**[cite: 239, 256].
+
+   ![Sección Cifrado extremo a extremo](imagenes/tb_cifrado.png)
+
+3. [cite_start]**Generación de la clave:** Creamos una nueva clave OpenPGP para nuestra dirección, asegurando en la configuración avanzada que la clave **no caduque** (utilizando algoritmos RSA de 3072 bits de tamaño)[cite: 262, 273, 278, 279, 281].
+4. [cite_start]**Asignación Exitosa:** Confirmamos el proceso y el gestor nos vinculará el ID de clave único generado de forma permanente[cite: 287, 290].
+
+   ![Clave OpenPGP creada correctamente](imagenes/tb_clave_generada.png)
+
+---
+
+### [cite_start]Tarea 2: Transferencia Segura de Ficheros Técnicos con WeTransfer [cite: 291, 306]
+
+[cite_start]Para realizar el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir las limitaciones de tamaño ni pérdida de calidad típicas del correo ordinario, empleamos la plataforma WeTransfer[cite: 306, 323, 327]:
+
+1. [cite_start]**Preparación del envío:** Accedemos a la interfaz web de WeTransfer Teams e introducimos el correo electrónico del destinatario y nuestra dirección corporativa de origen[cite: 306, 309, 316].
+
+   ![Formulario inicial de WeTransfer](imagenes/wt_formulario.png)
+
+2. [cite_start]**Carga del registro:** Hacemos clic en **"Añadir archivos"** y seleccionamos nuestro archivo de trazas `log.txt`[cite: 323]. [cite_start]Una vez listo, pulsamos el botón **Transferir**[cite: 325].
+
+   ![Subida del archivo log.txt](imagenes/wt_transferencia.png)
+
+3. [cite_start]**Finalización del proceso:** La plataforma procesa el envío de manera rápida y genera un enlace de descarga seguro con una validez temporal determinada para el receptor[cite: 326, 327].
+
+   ![Pantalla de transferencia completada con éxito](imagenes/wt_recibido.png)
