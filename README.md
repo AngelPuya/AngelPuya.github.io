@@ -92,15 +92,14 @@ Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir la
 
 2. **Carga del archivo:** Adjuntamos de manera directa nuestro archivo local de texto `log.txt`.
   ![Historial de cambios - Nomenclatura](imagenes/version_nomenclatura.png)
-   ![Subida del archivo log.txt](imagenes/wt_transferencia.png)
 
 4. **Ejecución del envío:** Confirmamos los datos y procedemos a pulsar sobre el botón de **"Transferir"**.
+   ![Subida del archivo log.txt](imagenes/wt_transferencia.png)
 
-   ![Pantalla de transferencia en progreso](imagenes/wt_recibido.png)
 
 5. **Resultado del proceso:** WeTransfer procesa la carga y nos devuelve la ventana final indicando el éxito de la operación junto con el enlace temporal seguro generado.
 
-   ![Transferencia completada con éxito](imagenes/wt_finalizado.png)
+   ![Pantalla de transferencia en progreso](imagenes/wt_recibido.png)
 
 ---
 
