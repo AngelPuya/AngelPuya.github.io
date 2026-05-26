@@ -88,9 +88,10 @@ Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fá
 Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir las limitaciones de tamaño ni pérdida de calidad típicas del correo ordinario, empleamos la plataforma WeTransfer:
 
 1. **Formulario inicial:** Accedemos a la plataforma y preparamos el espacio introduciendo los datos correspondientes del destinatario y remitente.
-  ![Historial de cambios - Misión](imagenes/version_mision.png)
 
-2. **Carga del archivo:** Adjuntamos de manera directa nuestro archivo local de texto `log.txt`.
+![Historial de cambios - Misión](imagenes/version_mision.png)
+
+3. **Carga del archivo:** Adjuntamos de manera directa nuestro archivo local de texto `log.txt`.
 
 ![Historial de cambios - Nomenclatura](imagenes/version_nomenclatura.png)
 
@@ -126,3 +127,14 @@ El pitido o ruido constante significa que el SAI ha detectado que uno de sus **r
 2. Desconectarlo de la toma de corriente física de la pared.
 3. Desconectar físicamente el borne de la batería interna del dispositivo.
 4. Mantener presionado el botón de encendido frontal durante **10 segundos** para descargar de forma segura los condensadores internos residuales.
+
+* [Manual del SAI](https://m.media-amazon.com/images/I/91uOT05EpPL.pdf)
+* [Solución de un usuario](https://community.se.com/t5/APC-UPS-Data-Center-Enterprise/Error-Code-P-05/td-p/511437#:~:text=Subscribe-,Posted:%20%E2%80%8E2025%2D06%2D03%2007:34%20AM,v=TT9je5yo7yM)
+
+#### La Placa Base Industrial
+Al no existir un jumper concreto para habilitar la escritura(al menos con el Supermicro X9SCM-F), hay que seguir un procedimiento:
+Usar un pendrive de 4GB formateado a FAT32, el archivo de la BIOS descargado debe renombrar a SUPER.ROM y colocarse en la raíz del USB.
+Luego se apaga el servidor y desconectarlo, insertar el USB en los USB de la parte de atrás, conectar un teclado, conectar la alimentación y mantener presionadas las teclas CTRL + HOME mientras se enciende el servidor hasta que el LED del USB parpadee, con esto el servidor iniciará una recuperación de la BIOS.
+
+* [Updating the BIOS of a Supermicro X9SCM-F Motherboard - Thomas-Krenn-Wiki-en
+](https://www.thomas-krenn.com/en/wiki/Updating_the_BIOS_of_a_Supermicro_X9SCM-F_Motherboard)
