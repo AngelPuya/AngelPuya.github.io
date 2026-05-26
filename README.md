@@ -54,6 +54,18 @@ Si tienes problemas técnicos o dudas sobre procesos:
 * **Soporte TI:** `ticket-support@ecotech.com`
 * **Recursos Humanos:** `hr@ecotech.com`
 
+### Control de Versiones
+
+A continuación se muestran las capturas correspondientes a la revisión del documento colaborativo en la nube:
+
+* **Paso 1:** Añadir comentarios explicativos sobre conceptos específicos (Misión y Tecnología Verde).
+  
+  ![Historial de cambios - Misión](imagenes/version_mision.png)
+
+* **Paso 2:** Propuestas de corrección sobre las normas de nomenclatura del espacio de trabajo.
+
+  ![Historial de cambios - Nomenclatura](imagenes/version_nomenclatura.png)
+
 ---
 
 ## Fase 3: Comunicación y Transferencia
@@ -66,18 +78,17 @@ Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fá
 
    ![Configuración de la cuenta en Thunderbird](imagenes/tb_config.png)
 
-2. **Sección de Cifrado:** En el apartado de *Cifrado extremo a extremo* asignado a nuestro correo (`angel.puya.lucena.alu@iesfernandoaguilar.es`), seleccionamos la opción **Añadir clave...**
+2. **Sección de Cifrado:** En el apartado de *Cifrado extremo a extremo* asignado a nuestro correo, seleccionamos la opción **Añadir clave...**
 
    ![Sección Cifrado extremo a extremo](imagenes/tb_cifrado.png)
 
 3. **Generación de la clave:** Creamos nuestra propia clave OpenPGP y nos aseguramos de marcar la opción de **La clave no caduque**. En la configuración avanzada verificamos que use tipo de clave RSA y un tamaño de 3072 bits.
-4. **Confirmación de creación:** Una vez completado el asistente, el sistema nos confirmará que la clave OpenPGP ha sido creada correctamente.
 
    ![Clave OpenPGP creada correctamente](imagenes/tb_clave_generada.png)
 
-5. **Asignación en el perfil:** Al cerrar el asistente, podemos verificar en los ajustes de la cuenta que el ID de la clave única ya se encuentra activo y asignado por defecto para el cifrado de nuestros correos.
+4. **Asignación en el perfil:** Al finalizar, el asistente vincula el ID de la clave única y se muestra el estado de seguridad activo para firmar y cifrar todos los mensajes por defecto.
 
-   ![ID de clave OpenPGP asignado en Thunderbird](imagenes/tb_clave_lista.png)
+   ![ID de clave OpenPGP activo en Thunderbird](imagenes/tb_clave_lista.png)
 
 ---
 
@@ -85,19 +96,19 @@ Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fá
 
 Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir las limitaciones de tamaño ni pérdida de calidad típicas del correo ordinario, empleamos la plataforma WeTransfer:
 
-1. **Configuración inicial de los destinatarios:** Accedemos a la página oficial de WeTransfer e introducimos el correo electrónico del destinatario, nuestra dirección de correo corporativa y el tiempo de validez del enlace (establecido en 3 días).
+1. **Formulario inicial:** Accedemos a la plataforma y preparamos el espacio introduciendo los datos correspondientes del destinatario y remitente.
 
    ![Formulario inicial de WeTransfer](imagenes/wt_formulario.png)
 
-2. **Carga del archivo:** Hacemos clic en el botón **"Añadir archivos"** y seleccionamos en el explorador de nuestro equipo el fichero de trazas llamado `log.txt`.
+2. **Carga del archivo:** Adjuntamos de manera directa nuestro archivo local de texto `log.txt`.
 
    ![Subida del archivo log.txt](imagenes/wt_transferencia.png)
 
-3. **Ejecución del envío:** Para finalizar la operación, pulsamos en el botón azul inferior que indica **"Transferir"**.
+3. **Ejecución del envío:** Confirmamos los datos y procedemos a pulsar sobre el botón de **"Transferir"**.
 
    ![Pantalla de transferencia en progreso](imagenes/wt_recibido.png)
 
-4. **Resultado del proceso:** El sistema subirá el archivo a la nube de manera rápida y generará la confirmación del envío junto con el enlace de descarga seguro listo para ser utilizado por el receptor.
+4. **Resultado del proceso:** WeTransfer procesa la carga y nos devuelve la ventana final indicando el éxito de la operación junto con el enlace temporal seguro generado.
 
    ![Transferencia completada con éxito](imagenes/wt_finalizado.png)
 
@@ -105,7 +116,7 @@ Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir la
 
 ## Fase 4: Documentación Técnica y Búsqueda
 
-### 🔍 Resolución de Incidencias de Hardware
+### Resolución de Incidencias de Hardware
 
 #### La Controladora RAID "quisquillosa"
 Eso que emite la tarjeta es un mensaje **POST (Power-On Self-Test)**. Dependiendo de la serie de pitidos o de las luces frontales reflejadas, nos alertará de un fallo de hardware específico antes del arranque que se puede consultar formalmente a partir de la **página 141** de la:
