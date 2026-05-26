@@ -4,7 +4,7 @@
 
 ---
 
-## Índice
+## 📋 Índice
 1. [Fase 1: Auditoría y Selección de Software](#fase-1-auditoría-y-selección-de-software)
 2. [Fase 2: Entorno Colaborativo y Ofimática](#fase-2-entorno-colaborativo-y-ofimática)
 3. [Fase 3: Comunicación y Transferencia](#fase-3-comunicación-y-transferencia)
@@ -12,7 +12,7 @@
 
 ---
 
-## Fase 1: Auditoría y Selección de Software
+## 🛠️ Fase 1: Auditoría y Selección de Software
 
 A continuación se presenta la tabla de herramientas seleccionadas para el entorno productivo corporativo, detallando su propósito, licenciamiento y justificación técnica:
 
@@ -26,77 +26,97 @@ A continuación se presenta la tabla de herramientas seleccionadas para el entor
 
 ---
 
----
-
 ## 🏢 Fase 2: Entorno Colaborativo y Ofimática
 
 ### Manual de Bienvenida: EcoTech Solutions
-> [cite_start]**¡Bienvenido al equipo de EcoTech!** [cite: 183]  
-> [cite_start]Estamos encantados de que te unas a nuestra misión de transformar la tecnología hacia un modelo sostenible y circular[cite: 184]. [cite_start]Este documento te servirá de guía durante tus primeros días[cite: 185].
+> **¡Bienvenido al equipo de EcoTech!** > Estamos encantados de que te unas a nuestra misión de transformar la tecnología hacia un modelo sostenible y circular. Este documento te servirá de guía durante tus primeros días.
 
 #### 1. Nuestra Misión y Visión
-* [cite_start]**Misión:** Acelerar la transición a tecnologías verdes[cite: 188].
-  * [cite_start]*Tecnología verde:* Uso de la ciencia y la innovación para crear productos, servicios y procesos que minimizan el impacto ambiental negativo[cite: 189].
-* [cite_start]**Visión:** Ser el referente mundial en componentes biodegradables para 2030[cite: 190].
+En EcoTech, no solo fabricamos hardware; diseñamos soluciones para reducir la huella de carbono global.
+* **Misión:** Acelerar la transición a tecnologías verdes.
+  * *Tecnología verde:* Uso de la ciencia y la innovación para crear productos, servicios y procesos que minimizan el impacto ambiental negativo.
+* **Visión:** Ser el referente mundial en componentes biodegradables para 2030.
 
-#### [cite_start]2. Herramientas de Trabajo [cite: 191]
-[cite_start]Para garantizar la eficiencia, utilizamos un ecosistema en la nube[cite: 192]:
-* [cite_start]**Gestión Documental:** Google Drive / OneDrive (Edición en tiempo real)[cite: 193].
-* [cite_start]**Comunicación:** Slack o Microsoft Teams[cite: 194].
-* [cite_start]**Gestión de Proyectos:** Trello o Asana[cite: 195].
+#### 2. Herramientas de Trabajo
+Para garantizar la eficiencia, utilizamos un ecosistema en la nube:
+* **Gestión Documental:** Google Drive / OneDrive (Edición en tiempo real).
+* **Comunicación:** Slack o Microsoft Teams.
+* **Gestión de Proyectos:** Trello o Asana.
 
-#### [cite_start]3. Normas del Espacio de Trabajo Colaborativo [cite: 196]
-1. [cite_start]**Nomenclatura:** Nombra tus archivos como `FECHA_NOMBRE_PROYECTO`[cite: 198].
-2. [cite_start]**Comentarios:** Usa la función de mención (`@nombre`) para asignar tareas[cite: 199].
-3. **Versiones:** No crees copias (ej. "Manual_Final_V2"). [cite_start]Usa el Historial de versiones integrado[cite: 200].
+#### 3. Normas del Espacio de Trabajo Colaborativo
+Para que la colaboración sea productiva, sigue estas reglas:
+1. **Nomenclatura:** Nombra tus archivos como `FECHA_NOMBRE_PROYECTO`.
+2. **Comentarios:** Usa la función de mención (`@nombre`) para asignar tareas.
+3. **Versiones:** No crees copias (ej. "Manual_Final_V2"). Usa el Historial de versiones integrado.
 
-### [cite_start]🔄 Control de Versiones (Historial de Cambios) [cite: 207]
-
-[cite_start]A continuación se documentan las revisiones y comentarios realizados sobre el documento colaborativo el **28 de abril de 2026**[cite: 210, 213]:
-
-* [cite_start]**Revisión de la sección de objetivos:** Inserción de la definición de tecnologías verdes justo debajo de la misión corporativa[cite: 208, 210].
-  
-  ![Comentario sobre tecnología verde](imagenes/version_mision.png)
-
-* [cite_start]**Revisión de directrices de guardado:** Ajuste sugerido sobre la plantilla de nomenclatura y formatos de los archivos finales a almacenar[cite: 211, 214].
-
-  ![Comentario sobre plantilla de archivos](imagenes/version_nomenclatura.png)
+#### 4. Canales de Ayuda
+Si tienes problemas técnicos o dudas sobre procesos:
+* **Soporte TI:** `ticket-support@ecotech.com`
+* **Recursos Humanos:** `hr@ecotech.com`
 
 ---
 
-## [cite_start]📯 Fase 3: Comunicación y Transferencia [cite: 217]
+## 📯 Fase 3: Comunicación y Transferencia
 
-### [cite_start]Tarea 1: Configuración de Cifrado Extremo a Extremo en Thunderbird (OpenPGP) [cite: 218, 246]
+### Tarea 1: Configuración de Cifrado Extremo a Extremo en Thunderbird (OpenPGP)
 
-[cite_start]Para evitar que los contenidos de nuestros correos queden expuestos ante los proveedores o sistemas de vigilancia masiva, configuramos claves personales de cifrado[cite: 247, 248]:
+Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fácilmente a su proveedor de correo y a la vigilancia masiva. Para evitarlo, configuramos claves OpenPGP en nuestro gestor:
 
-1. [cite_start]**Acceso al panel técnico:** Iniciamos Thunderbird y entramos en `Configuración` -> `Configuración de la cuenta`[cite: 227].
+1. **Acceso a la configuración de la cuenta:** Iniciamos Thunderbird y nos dirigimos a `Configuración` -> `Configuración de la cuenta`.
 
    ![Configuración de la cuenta en Thunderbird](imagenes/tb_config.png)
 
-2. [cite_start]**Gestión de Cifrado:** En el menú lateral izquierdo, nos dirigimos a **Cifrado extremo a extremo** y pulsamos sobre el botón **Añadir clave...**[cite: 239, 256].
+2. **Sección de Cifrado:** En el apartado de *Cifrado extremo a extremo* asignado a nuestro correo (`angel.puya.lucena.alu@iesfernandoaguilar.es`), seleccionamos la opción **Añadir clave...**
 
    ![Sección Cifrado extremo a extremo](imagenes/tb_cifrado.png)
 
-3. [cite_start]**Generación de la clave:** Creamos una nueva clave OpenPGP para nuestra dirección, asegurando en la configuración avanzada que la clave **no caduque** (utilizando algoritmos RSA de 3072 bits de tamaño)[cite: 262, 273, 278, 279, 281].
-4. [cite_start]**Asignación Exitosa:** Confirmamos el proceso y el gestor nos vinculará el ID de clave único generado de forma permanente[cite: 287, 290].
+3. **Generación de la clave:** Creamos nuestra propia clave OpenPGP y nos aseguramos de marcar la opción de **La clave no caduque**. En la configuración avanzada verificamos que use tipo de clave RSA y un tamaño de 3072 bits.
+4. **Confirmación:** Una vez completado el asistente, confirmamos el proceso para tener nuestra clave correctamente asignada con su ID único correspondiente.
 
    ![Clave OpenPGP creada correctamente](imagenes/tb_clave_generada.png)
 
 ---
 
-### [cite_start]Tarea 2: Transferencia Segura de Ficheros Técnicos con WeTransfer [cite: 291, 306]
+### Tarea 2: Transferencia de Ficheros de Registro con WeTransfer
 
-[cite_start]Para realizar el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir las limitaciones de tamaño ni pérdida de calidad típicas del correo ordinario, empleamos la plataforma WeTransfer[cite: 306, 323, 327]:
+Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir las limitaciones de tamaño ni pérdida de calidad típicas del correo ordinario, empleamos la plataforma WeTransfer:
 
-1. [cite_start]**Preparación del envío:** Accedemos a la interfaz web de WeTransfer Teams e introducimos el correo electrónico del destinatario y nuestra dirección corporativa de origen[cite: 306, 309, 316].
+1. **Configuración inicial de los destinatarios:** Accedemos a la página oficial de WeTransfer e introducimos el correo electrónico del destinatario, nuestra dirección de correo corporativa y el tiempo de validez del enlace (establecido en 3 días).
 
    ![Formulario inicial de WeTransfer](imagenes/wt_formulario.png)
 
-2. [cite_start]**Carga del registro:** Hacemos clic en **"Añadir archivos"** y seleccionamos nuestro archivo de trazas `log.txt`[cite: 323]. [cite_start]Una vez listo, pulsamos el botón **Transferir**[cite: 325].
+2. **Carga del archivo:** Hacemos clic en el botón **"Añadir archivos"** y seleccionamos en el explorador de nuestro equipo el fichero de trazas llamado `log.txt`.
 
    ![Subida del archivo log.txt](imagenes/wt_transferencia.png)
 
-3. [cite_start]**Finalización del proceso:** La plataforma procesa el envío de manera rápida y genera un enlace de descarga seguro con una validez temporal determinada para el receptor[cite: 326, 327].
+3. **Ejecución del envío:** Para finalizar la operación, pulsamos en el botón azul inferior que indica **"Transferir"**.
 
-   ![Pantalla de transferencia completada con éxito](imagenes/wt_recibido.png)
+   ![Pantalla de transferencia en progreso](imagenes/wt_recibido.png)
+
+4. **Resultado del proceso:** El sistema subirá el archivo a la nube de manera rápida y generará la confirmación del envío junto con el enlace de descarga seguro listo para ser utilizado por el receptor.
+
+   ![Transferencia completada con éxito](imagenes/wt_finalizado.png)
+
+---
+
+## 🛠️ Fase 4: Documentación Técnica y Búsqueda
+
+### 🔍 Resolución de Incidencias de Hardware
+
+#### ⚠️ La Controladora RAID "quisquillosa"
+Eso que emite la tarjeta es un mensaje **POST (Power-On Self-Test)**. Dependiendo de la serie de pitidos o de las luces frontales reflejadas, nos alertará de un fallo de hardware específico antes del arranque que se puede consultar formalmente a partir de la **página 141** de la:
+* [HP ProLiant Servers Troubleshooting Guide](https://www.hpe.com/)
+
+#### ⚠️ El Servidor que no acepta la RAM
+En un servidor *Dell PowerEdge R720*, los fallos de reconocimiento de memoria RAM suelen responder a restricciones físicas estrictas de la propia arquitectura de la placa:
+* **Incompatibilidad de módulos:** El equipo puede requerir memorias de tipo **RDIMM** o **LRDIMM** específicos, rechazando formatos *ECC Unbuffered DDR3* convencionales.
+* **Restricción de Slots:** La placa del R720 permite usar hasta 16 ranuras de memoria (8 asignadas por cada procesador físico), dictando su norma estructural que **los slots número 3 de cada canal deben permanecer completamente vacíos** a menos que se use la capacidad total máxima.
+* [Dell PowerEdge R720 Memory Upgrades](https://www.dell.com/)
+
+#### ⚠️ El SAI ruidoso
+El pitido o ruido constante significa que el SAI ha detectado que uno de sus **relés internos de seguridad** (encargado de prevenir el retorno de energía o *backfeed*) se ha quedado soldado o está dañado. El equipo bloquea funciones para evitar males mayores sobre la instalación. La solución técnica estándar consiste en hacerle un reinicio eléctrico completo:
+
+1. Apagar el SAI completamente y quitarlo del botón principal.
+2. Desconectarlo de la toma de corriente física de la pared.
+3. Desconectar físicamente el borne de la batería interna del dispositivo.
+4. Mantener presionado el botón de encendido frontal durante **10 segundos** para descargar de forma segura los condensadores internos residuales.
