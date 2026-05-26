@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Índice
+## Índice
 1. [Fase 1: Auditoría y Selección de Software](#fase-1-auditoría-y-selección-de-software)
 2. [Fase 2: Entorno Colaborativo y Ofimática](#fase-2-entorno-colaborativo-y-ofimática)
 3. [Fase 3: Comunicación y Transferencia](#fase-3-comunicación-y-transferencia)
@@ -12,7 +12,7 @@
 
 ---
 
-## 🛠️ Fase 1: Auditoría y Selección de Software
+## Fase 1: Auditoría y Selección de Software
 
 A continuación se presenta la tabla de herramientas seleccionadas para el entorno productivo corporativo, detallando su propósito, licenciamiento y justificación técnica:
 
@@ -26,7 +26,7 @@ A continuación se presenta la tabla de herramientas seleccionadas para el entor
 
 ---
 
-## 🏢 Fase 2: Entorno Colaborativo y Ofimática
+## Fase 2: Entorno Colaborativo y Ofimática
 
 ### Manual de Bienvenida: EcoTech Solutions
 > **¡Bienvenido al equipo de EcoTech!** > Estamos encantados de que te unas a nuestra misión de transformar la tecnología hacia un modelo sostenible y circular. Este documento te servirá de guía durante tus primeros días.
@@ -56,7 +56,7 @@ Si tienes problemas técnicos o dudas sobre procesos:
 
 ---
 
-## 📯 Fase 3: Comunicación y Transferencia
+## Fase 3: Comunicación y Transferencia
 
 ### Tarea 1: Configuración de Cifrado Extremo a Extremo en Thunderbird (OpenPGP)
 
@@ -71,9 +71,13 @@ Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fá
    ![Sección Cifrado extremo a extremo](imagenes/tb_cifrado.png)
 
 3. **Generación de la clave:** Creamos nuestra propia clave OpenPGP y nos aseguramos de marcar la opción de **La clave no caduque**. En la configuración avanzada verificamos que use tipo de clave RSA y un tamaño de 3072 bits.
-4. **Confirmación:** Una vez completado el asistente, confirmamos el proceso para tener nuestra clave correctamente asignada con su ID único correspondiente.
+4. **Confirmación de creación:** Una vez completado el asistente, el sistema nos confirmará que la clave OpenPGP ha sido creada correctamente.
 
    ![Clave OpenPGP creada correctamente](imagenes/tb_clave_generada.png)
+
+5. **Asignación en el perfil:** Al cerrar el asistente, podemos verificar en los ajustes de la cuenta que el ID de la clave única ya se encuentra activo y asignado por defecto para el cifrado de nuestros correos.
+
+   ![ID de clave OpenPGP asignado en Thunderbird](imagenes/tb_clave_lista.png)
 
 ---
 
@@ -99,24 +103,24 @@ Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir la
 
 ---
 
-## 🛠️ Fase 4: Documentación Técnica y Búsqueda
+## Fase 4: Documentación Técnica y Búsqueda
 
 ### 🔍 Resolución de Incidencias de Hardware
 
-#### ⚠️ La Controladora RAID "quisquillosa"
+#### La Controladora RAID "quisquillosa"
 Eso que emite la tarjeta es un mensaje **POST (Power-On Self-Test)**. Dependiendo de la serie de pitidos o de las luces frontales reflejadas, nos alertará de un fallo de hardware específico antes del arranque que se puede consultar formalmente a partir de la **página 141** de la:
 * [HP ProLiant Servers Troubleshooting Guide](https://www.hpe.com/)
 
-#### ⚠️ El Servidor que no acepta la RAM
+#### El Servidor que no acepta la RAM
 En un servidor *Dell PowerEdge R720*, los fallos de reconocimiento de memoria RAM suelen responder a restricciones físicas estrictas de la propia arquitectura de la placa:
 * **Incompatibilidad de módulos:** El equipo puede requerir memorias de tipo **RDIMM** o **LRDIMM** específicos, rechazando formatos *ECC Unbuffered DDR3* convencionales.
 * **Restricción de Slots:** La placa del R720 permite usar hasta 16 ranuras de memoria (8 asignadas por cada procesador físico), dictando su norma estructural que **los slots número 3 de cada canal deben permanecer completamente vacíos** a menos que se use la capacidad total máxima.
 * [Dell PowerEdge R720 Memory Upgrades](https://www.dell.com/)
 
-#### ⚠️ El SAI ruidoso
+#### El SAI ruidoso
 El pitido o ruido constante significa que el SAI ha detectado que uno de sus **relés internos de seguridad** (encargado de prevenir el retorno de energía o *backfeed*) se ha quedado soldado o está dañado. El equipo bloquea funciones para evitar males mayores sobre la instalación. La solución técnica estándar consiste en hacerle un reinicio eléctrico completo:
 
-1. Apagar el SAI completamente y quitarlo del botón principal.
+1. Apagar el SAI completamente desde el botón principal.
 2. Desconectarlo de la toma de corriente física de la pared.
 3. Desconectar físicamente el borne de la batería interna del dispositivo.
 4. Mantener presionado el botón de encendido frontal durante **10 segundos** para descargar de forma segura los condensadores internos residuales.
