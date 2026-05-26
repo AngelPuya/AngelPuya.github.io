@@ -54,17 +54,6 @@ Si tienes problemas técnicos o dudas sobre procesos:
 * **Soporte TI:** `ticket-support@ecotech.com`
 * **Recursos Humanos:** `hr@ecotech.com`
 
-### Control de Versiones
-
-A continuación se muestran las capturas correspondientes a la revisión del documento colaborativo en la nube:
-
-* **Paso 1:** Añadir comentarios explicativos sobre conceptos específicos (Misión y Tecnología Verde).
-  
-  ![Historial de cambios - Misión](imagenes/version_mision.png)
-
-* **Paso 2:** Propuestas de corrección sobre las normas de nomenclatura del espacio de trabajo.
-
-  ![Historial de cambios - Nomenclatura](imagenes/version_nomenclatura.png)
 
 ---
 
@@ -85,6 +74,8 @@ Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fá
 3. **Generación de la clave:** Creamos nuestra propia clave OpenPGP y nos aseguramos de marcar la opción de **La clave no caduque**. En la configuración avanzada verificamos que use tipo de clave RSA y un tamaño de 3072 bits.
 
    ![Clave OpenPGP creada correctamente](imagenes/tb_clave_generada.png)
+   ![Formulario inicial de WeTransfer](imagenes/wt_formulario.png)
+
 
 4. **Asignación en el perfil:** Al finalizar, el asistente vincula el ID de la clave única y se muestra el estado de seguridad activo para firmar y cifrar todos los mensajes por defecto.
 
@@ -97,18 +88,17 @@ Sin cifrado de extremo a extremo los contenidos del mensaje quedan expuestos fá
 Para el envío rápido de ficheros de registro masivos (`log.txt`) sin sufrir las limitaciones de tamaño ni pérdida de calidad típicas del correo ordinario, empleamos la plataforma WeTransfer:
 
 1. **Formulario inicial:** Accedemos a la plataforma y preparamos el espacio introduciendo los datos correspondientes del destinatario y remitente.
-
-   ![Formulario inicial de WeTransfer](imagenes/wt_formulario.png)
+  ![Historial de cambios - Misión](imagenes/version_mision.png)
 
 2. **Carga del archivo:** Adjuntamos de manera directa nuestro archivo local de texto `log.txt`.
-
+  ![Historial de cambios - Nomenclatura](imagenes/version_nomenclatura.png)
    ![Subida del archivo log.txt](imagenes/wt_transferencia.png)
 
-3. **Ejecución del envío:** Confirmamos los datos y procedemos a pulsar sobre el botón de **"Transferir"**.
+4. **Ejecución del envío:** Confirmamos los datos y procedemos a pulsar sobre el botón de **"Transferir"**.
 
    ![Pantalla de transferencia en progreso](imagenes/wt_recibido.png)
 
-4. **Resultado del proceso:** WeTransfer procesa la carga y nos devuelve la ventana final indicando el éxito de la operación junto con el enlace temporal seguro generado.
+5. **Resultado del proceso:** WeTransfer procesa la carga y nos devuelve la ventana final indicando el éxito de la operación junto con el enlace temporal seguro generado.
 
    ![Transferencia completada con éxito](imagenes/wt_finalizado.png)
 
